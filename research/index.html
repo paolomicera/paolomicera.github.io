@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Paolo Micera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/main.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="inner">
+    <a class="brand" href="../"><b>Paolo</b> Micera</a>
+    <div style="display:flex;align-items:center">
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a class="active" href="./">Research</a></li>
+        <li><a href="../teaching/">Teaching</a></li>
+        <li><a href="../contact/">Contact</a></li>
+      </ul>
+      <button class="icon-btn theme-toggle" aria-label="Switch light/dark"><i class="fa-solid fa-circle-half-stroke"></i></button>
+      <button class="icon-btn menu-toggle" aria-label="Menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+<!-- Banner: change src to use another painting; object-position chooses which part is shown -->
+<div class="banner">
+  <img src="../assets/img/banner-trees.jpg" alt="Egon Schiele, Four Trees (1917), Belvedere, Vienna." style="object-position: center 58%;">
+</div>
+
+<main>
+  <h1 class="page-title">Research</h1>
+  <p class="subtitle">Labor Economics · Health Economics · Household Economics · Economics of Aging</p>
+
+  <!--
+    HOW TO ADD A PAPER: copy one <li class="paper"> ... </li> block and edit it.
+    - To add a PDF: put it in assets/pdf/ and uncomment the PDF button (and the link on the title)
+    - Delete any line you don't need (venue, note, slides button, ...)
+  -->
+
+  <h2>Work in Progress</h2>
+  <ul class="papers">
+
+    <li class="paper" id="paper-workcond">
+      <div class="title">
+        <!-- <a href="../assets/pdf/Micera_working_conditions.pdf"> -->Working Conditions and Health at Work Over the Life Cycle: Evidence from Europe<!-- </a> -->
+      </div>
+      <div class="authors">
+        <!-- To link a co-author: <a href="https://their-page">Name</a> -->
+        With Michele Belloni and Claudio Lucifora
+      </div>
+      <div class="links">
+        <button class="btn" data-toggle="abstract" aria-expanded="false">Abstract</button>
+        <!-- <a class="btn" href="../assets/pdf/Micera_working_conditions.pdf">PDF</a> -->
+      </div>
+      <div class="abstract">
+        The study examines how cumulative exposure to adverse working conditions affects later-life
+        physical and mental health among Europeans. Using longitudinal data from SHARE linked to
+        historical occupational measures from O*NET and the 1965 DOT, it applies an
+        instrumental-variable approach based on Bartik-type variation to address endogeneity and
+        measurement error. Health is modeled as a durable capital stock that depreciates with age and
+        harmful work environments. The analysis constructs long-term indices of physical and
+        psychosocial strain and reveals gender-differentiated effects, emphasizing the lasting impact
+        of working conditions on health and the importance of improving job quality for an aging
+        workforce.
+      </div>
+    </li>
+
+    <li class="paper" id="paper-fertility">
+      <div class="title">
+        <!-- <a href="../assets/pdf/Micera_fertility.pdf"> -->Does It Take a Village to Raise a Child? Parental Health Shocks and Fertility Timing in the Netherlands<!-- </a> -->
+      </div>
+      <div class="authors">
+        With Viola Angelini and Max Groneck
+      </div>
+      <div class="links">
+        <button class="btn" data-toggle="abstract" aria-expanded="false">Abstract</button>
+        <!-- <a class="btn" href="../assets/pdf/Micera_fertility.pdf">PDF</a> -->
+      </div>
+      <div class="abstract">
+        The project examines how unexpected health shocks within the family influence women's
+        fertility timing and the mechanisms through which these effects operate inside the household.
+        Using linked Dutch administrative data combining hospital records, employment histories, and
+        demographic information, the analysis follows families over time and studies short- and
+        medium-term responses to parental health shocks. An event-study design compares women whose
+        parents experience a sudden health shock with similar women whose parents do not, allowing
+        fertility trajectories to be tracked before and after the event. The framework highlights how
+        caregiving responsibilities, financial pressures, and the potential loss of future childcare
+        support may delay childbearing, particularly when shocks occur during critical reproductive
+        ages. The project also investigates spillover effects of grandparental death, examining
+        whether the loss of informal childcare provided by grandparents leads families to postpone or
+        adjust fertility decisions.
+      </div>
+    </li>
+
+  </ul>
+
+  <!-- Optional section, same structure as above
+  <h2>Other Work</h2>
+  <ul class="papers"> ... </ul>
+  -->
+</main>
+
+<footer>
+  © Copyright <span id="year">2026</span> Paolo Micera. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.<br>
+  <span class="credit">Image: Egon Schiele, <i>Four Trees</i> (1917), Belvedere, Vienna.</span>
+</footer>
+
+</body>
+</html>
