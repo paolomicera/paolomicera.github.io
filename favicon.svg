@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<style>
+  .bg{fill:#1d4f91} .tx{fill:#ffffff}
+  @media (prefers-color-scheme: dark){ .bg{fill:#8db4ea} .tx{fill:#1c1c1d} }
+</style>
+<rect class="bg" width="100" height="100" rx="22"/>
+<g class="tx" transform="translate(22.722,62.754) scale(0.01752,-0.01752)"><path transform="translate(0.0,0)" d="M431 514V0H130V1456H699Q957 1456 1101.5 1320.0Q1246 1184 1246 975Q1246 764 1101.5 639.0Q957 514 699 514ZM431 1213V756H699Q828 756 885.0 817.0Q942 878 942.0 973.0Q942 1068 885.0 1140.5Q828 1213 699 1213Z"/><path transform="translate(1321.9,0)" d="M896 400 1269 1456H1662V0H1361V398L1391 1082L999 0H793L401 1082L431 398V0H130V1456H523Z"/></g>
+</svg>
