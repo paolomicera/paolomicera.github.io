@@ -42,7 +42,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Roboto", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
   font-size: 1rem;
   line-height: 1.6;
   font-weight: 400;
@@ -283,3 +283,7 @@ footer .credit { font-size: 0.75rem; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --faint: #7d8389; } }
 :root[data-theme="dark"] { --faint: #7d8389; }
 .paper .pres { font-size: 0.8rem; color: var(--faint); line-height: 1.45; margin-top: 4px; }
+
+/* Lora has no light weight: keep the surname regular and the name bold */
+h1.page-title { font-weight: 400; }
+.brand { font-weight: 400; }
