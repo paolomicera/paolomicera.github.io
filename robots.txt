@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paolomicera.github.io/sitemap.xml
